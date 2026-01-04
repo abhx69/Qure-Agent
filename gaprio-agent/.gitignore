@@ -1,0 +1,36 @@
+# --- Sensitive Information ---
+# This is the most important file to ignore to protect your database passwords and API keys
+.env
+
+# --- Python Environment & Bytecode ---
+# Ignore the compiled files shown in your __pycache__ folders
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# --- Test Outputs & Logs ---
+# Ignore the JSON response files shown in your file explorer
+test_response_*.json
+debug_response.json
+
+# General logs
+*.log
+
+# --- Database & Local Storage ---
+# If you ever keep local SQLite or temporary DB dumps
+*.db
+*.sqlite3
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings ---
+# Optional: keeps your VS Code settings from being pushed
+.vscode/
+.idea/
